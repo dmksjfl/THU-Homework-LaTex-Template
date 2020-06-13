@@ -7,6 +7,7 @@ The figures by default stores in file figures. The thuhw.pdf listed some situati
 # CoverPage
 ![avatar](cover.png)
 # Update Log
+## All Updated Versions could be found in Releases
 Version 1.1:
 1. Add package `physics` so as to better handle physics homework
 2. Rearrange packages included alphabetically
