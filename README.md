@@ -6,3 +6,7 @@ XeLaTex
 The figures by default stores in file figures. The thuhw.pdf listed some situations one may meet during homework including formula, figures and tables, algorithms and codes etc. One could make some supplement to this template based on what you need when you do your homework. For further developing this template, I welcome you to do more jobs on it.
 # CoverPage
 ![avatar](cover.png)
+# Update Log
+Version 1.1:
+1. Add package `physics` so as to better handle physics homework
+2. Rearrange packages included alphabetically
