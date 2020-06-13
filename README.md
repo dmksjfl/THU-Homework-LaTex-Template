@@ -9,5 +9,5 @@ The figures by default stores in file figures. The thuhw.pdf listed some situati
 # Update Log
 ## All Updated Versions could be found in Releases
 Version 1.1:
-1. Add package `physics` so as to better handle physics homework。 For more info about this package, find [here](https://mirrors.bfsu.edu.cn/CTAN/macros/latex/contrib/physics/physics.pdf)
+1. Add package `physics` so as to better handle physics homework. For more info about this package, find [here](https://mirrors.bfsu.edu.cn/CTAN/macros/latex/contrib/physics/physics.pdf)
 2. Rearrange packages included alphabetically
