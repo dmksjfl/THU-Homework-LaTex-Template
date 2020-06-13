@@ -1,11 +1,17 @@
 \documentclass[12pt]{article}
 \usepackage[a4paper, left=2.0 cm,right=2.0 cm,top=1.5 cm,bottom=2.0 cm]{geometry}
-
-% load packages that would possibily be used
 \usepackage[T1]{fontenc}
 \usepackage[UTF8, heading = false, scheme = plain]{ctex}
-% self-define title, \@ to reference
-\title{Introduction to Machine Learning (HW1)}
+
+% load packages that would possibily be used
+\usepackage{algorithm}  %% to write an algorithm
+\usepackage{algorithmicx}
+\usepackage[noend]{algpseudocode}
+\usepackage{amsmath} % math
+\usepackage{amsfonts} % math fonts
+\usepackage{bm} % bold fonts for math env
+\usepackage{booktabs}
+\usepackage{caption}
 \usepackage{fancyhdr}
  \pagestyle{fancy} % set header, disable it if you do not want to include it
  \fancypagestyle{plain}%
@@ -13,35 +19,30 @@
  %\lhead{} % left side of header, could put course code or your name etc.
  \chead{\quad\\[0.2cm] Introduction to Machine Learning (HW1)}
  \rhead{} % right side of header, could put your ID etc.
-\usepackage{listings} % code
+\usepackage{fancyvrb} % show results of programming
+ \newcommand{\VerbBar}{|}
+ \newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+ \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
 \usepackage{float} % Package for Float
+\usepackage{framed}
+\usepackage{graphicx} % pictures
+ \graphicspath{{figures/}} % set image path
+\usepackage{indentfirst}
+ \setlength{\parindent}{2em}
+\usepackage{listings} % code
+\usepackage{multirow}
+\usepackage{palatino}
+\usepackage{physics} % used to better handle math or symbols correlated to physics
+\usepackage{subfigure} % subfigure plot
+\usepackage{titlesec}
 \usepackage{xcolor} % font color
  \definecolor{mygreen}{rgb}{0,0.6,0}
  \definecolor{mygray}{rgb}{0.5,0.5,0.5}
  \definecolor{mymauve}{rgb}{0.58,0,0.82}
  \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-\usepackage{caption}
-\usepackage{palatino}
+
+% hyperref
 \usepackage[colorlinks, linkcolor = blue]{hyperref}
-\usepackage{titlesec}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{bm}
-\usepackage{fancyvrb} % show results of programming
- \newcommand{\VerbBar}{|}
- \newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
- \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-\usepackage{framed}
-\usepackage{indentfirst}
- \setlength{\parindent}{2em}
-\usepackage{algorithm}  %% to write an algorithm
-\usepackage{algorithmicx}
-\usepackage[noend]{algpseudocode}
-\usepackage{graphicx} % pictures
- \graphicspath{{figures/}} % set image path
-\usepackage{subfigure}
-\usepackage{multirow}
-\usepackage{booktabs}
 % set font
 \usepackage{mathptmx} % set mathfont to Times New Roman
 \usepackage{fontspec}
@@ -51,6 +52,8 @@
  \newcommand{\simarab}{\fontspec{Courier New}}
 % footnote
 \renewcommand{\thefootnote}{\Roman {footnote}}
+% self-define title, \@ to reference
+\title{Introduction to Machine Learning (HW1)}
 
 %---------------------------------------CODE SET-----------------------------------------
 \lstset{ %
