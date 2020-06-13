@@ -1,5 +1,5 @@
-# THU-Homework-LaTex-Template
-This is a LaTex template for THU homework which is suitable for math/physics/statistics/computer science and other related majors. This template is simple and may not meet all of your needs where you should improve it yourself.
+# THU-Homework-LaTeX-Template
+This is a LaTeX template for THU homework which is suitable for math/physics/statistics/computer science and other related majors. This template is simple and may not meet all of your needs where you should improve it yourself.
 # Requirements
 XeLaTex
 # Instructions
